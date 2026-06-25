@@ -53,7 +53,7 @@ LIMIT 5 OFFSET 3;
 
 SELECT *
 FROM Transactions
-WHERE TransactionType IN ('Credit','Debit')
+WHERE TransactionType IN ('Deposit','Withdrawal')
 ORDER BY TransactionDate DESC;
 
 
