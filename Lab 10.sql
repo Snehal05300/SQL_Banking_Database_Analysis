@@ -22,3 +22,4 @@ WHERE t.Amount > 25000;
 SELECT TransactionID, CustomerName, BranchName, TransactionType, Amount
 FROM Suspicious_Transactions
 ORDER BY Amount DESC;
+SELECT * FROM Suspicious_Transactions;
