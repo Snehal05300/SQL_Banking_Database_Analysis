@@ -44,3 +44,4 @@ ORDER BY BranchName, t.CustomerID;
 VALUES
 (320, 210, 109, '2025-05-10',  60000.00, 'Deposit'),
 (321, 213, 109, '2025-05-10',  30000.00, 'Withdrawal');
+SELECT * FROM Transactions_2;
