@@ -48,3 +48,5 @@ FROM loan_applications;
 SELECT application_id, customer_name, risk_score,
 LEAD(risk_score) OVER (ORDER BY risk_score DESC) AS next_risk_score
 FROM loan_applications;
+
+
